@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(207, 209, 209);
+    height: 100vh;
+    overflow-y: auto;
+
+}
+
+.container{
+    border: 2px solid rgb(201, 200, 200);
+    border-top: 1px;
+    border-right: 1px;
+    margin: 35px auto !important;
+    width: 500px;
+    background-color: #fefbfb;
+    box-shadow: -5px 5px 5px #abaaaa; 
+    border-radius: 4px; 
+    padding-bottom: 20px;
+    
+}
+
+h2{
+    margin: 20px 200px;
+    padding-top: 20px;
+    color: #767575;
+    margin-bottom: 10px;
+    text-decoration: underline;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+label{
+    margin-left: 20px;
+    margin-top: 20px;
+    color:  #767575;
+}
+
+label:hover{
+    color: rgb(70, 16, 232);
+}
+
+#email{
+    width: 450px;
+    margin-left: 20px;
+    height: 40px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    outline: 0;
+}
+
+#password{
+    width: 450px;
+    margin-left: 20px;
+    height: 40px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    outline: 0;
+}
+
+input:hover{
+    outline: 0;
+    border-color: rgb(7, 7, 207);
+}
+
+.btn{
+   
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.btn a{
+    
+    font-size: 14px;
+}
+
+button{
+    background-color: rgb(245, 155, 110);
+    color: #fff;
+    width: 100px;
+    height: 40px;
+    border: 2px solid rgb(245, 155, 110);
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover{
+    background-color: rgb(97, 97, 247);
+    border-color: rgb(185, 185, 246);
+}
+
+a{
+    margin: 20px;
+    margin-bottom: 25px;
+    font-size: 16px;
+    color: #4c4b4b;
+}
+
+a:hover{
+    color: rgb(250, 100, 26);
+}
+
+.white{
+    color: #363636;
+    font-size: 17px;
+    padding-top: 1px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+}
+
+.white p{
+    margin: 5px 180px;
+}
+
+
+#links{
+    padding: 10px 160px;
+    margin: auto;
+    margin-bottom: 20px;     
+}
+
+#links a{
+    padding: 10px;
+    border: 3px solid rgb(245, 155, 110);
+    background-color: rgb(249, 241, 241);
+    border-radius: 50%;
+}
+
+#links a:hover{
+    background-color: rgb(188, 188, 243);
+    border: 2px solid rgb(231, 231, 251);
+    cursor: pointer;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+
+    <!-- Firebase app authentication script link version 7.17.2 -->
+    <script
+      src="https://www.gstatic.com/firebasejs/7.17.2/firebase-app.js"
+      ;
+    ></script>
+
+    <!-- Firebase auth authentication script link version 7.17.2 -->
+    <script
+      src="https://www.gstatic.com/firebasejs/7.17.2/firebase-auth.js"
+      ;
+    ></script>
+
+    <!-- styling sheet link -->
+    <link rel="stylesheet" href="login.css">
+
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <div class="container">
+    <h2>Login</h2>
+    <label for="email">Email address</label>
+    <input type="text" id="email" placeholder="Enter email" />
+    <br />
+    <br />
+    <label for="password">Your password</label>
+    <input type="password" id="password" placeholder="Enter password" />
+    <br />
+     <div class="btn">
+    <a href="./signupindex.html">Create account..</a>
+    <button onclick="login()">Login</button>
+    <a onclick="forgotPassword()" href="#">Forget Password</a>
+    </div> 
+    <!-- <div class="forgot">
+  </div> -->
+
+    <div class="white"> _________________________  or   _________________________  
+    <p>Connect with</p>
+
+    </div>
+    <div id="links" class="white">
+      <a onclick="loginWithGithub()" href="#"><i class="fa-brands fa-github"></i></a>
+      
+      <a onclick="loginWithGoogle()" href="#"><i class="fa-brands fa-google"></i></a>
+     
+    </div>   
+  </div>
+    <script src="app.js"></script>
+  </body>
+</html>
